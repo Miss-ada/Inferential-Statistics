@@ -22,7 +22,7 @@ view(dat)
 boxplot(as.matrix(dat[,]), beside=T)
 
 
-![boxplot](/Inferential-Statistics/image001.png)
+![boxplot](image001.png)
 
 
 The time it takes in reading incongruent words (with a median of about 15) is generally more than the time in reading congruent words (with a median of about 22). The distribution of reading incongruent words is right skewed with two outliers.
@@ -31,7 +31,7 @@ R-code:
 barplot(t(as.matrix(dat[,])), beside=T)
 
 
-![barplot](/Inferential-Statistics/image003.png)
+![barplot](image003.png)
 
 This is a bar chart of the times of reading congruent and incongruent words. As can be seen, the time of reading incongruent words is in grey and is higher than the time of reading congruent words, which is marked black.
  
