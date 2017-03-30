@@ -20,6 +20,7 @@ setwd("/Users/wenjia.ma/Downloads/")
 dat = read.csv("/Users/wenjia.ma/Downloads/stroopdata.csv", header = TRUE)
 view(dat)
 boxplot(as.matrix(dat[,]), beside=T)
+![boxplot](/images/image001.png)
 
 
 The time it takes in reading incongruent words (with a median of about 15) is generally more than the time in reading congruent words (with a median of about 22). The distribution of reading incongruent words is right skewed with two outliers.
